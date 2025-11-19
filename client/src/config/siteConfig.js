@@ -1,7 +1,7 @@
 /**
  * Site Configuration
  * This file contains all configurable content for the website
- * Last updated: 2025-11-19T17:24:42.754Z
+ * Last updated: 2025-11-19T17:27:05.866Z
  */
 
 // contactInfo configuration
@@ -219,17 +219,7 @@ export const galleryImages = [
   }
 ];
 
-// heroVideo configuration
-// export const heroVideo = {
-//   url: "",
-//   type: "video/mp4",
-//   autoplay: true,
-//   loop: true,
-//   muted: true,
-//   playsInline: true
-// };
-
-// homeShowcaseSections configuration  
+// homeShowcaseSections configuration
 export const homeShowcaseSections = [
   {
     id: "section1",
@@ -259,15 +249,15 @@ export const homeShowcaseSections = [
 
 // neighborhood configuration
 export const neighborhood = {
-  name: "London",
+  name: "Chestnut Hill",
   city: "London",
-  description: "London's premier destination for culture, dining, and urban living.",
+  description: "Chestnut Hill is a leafy neighbourhood known for tree-lined streets, grand estates and easy access to green spaces. Residents enjoy Chestnuts Park with an outdoor gym, tennis courts, basketball areas and an on-site café, plus a vibrant shopping and dining scene along Germantown Avenue. The area also benefits from proximity to London's world-class museums and several iconic attractions.",
   highlights: [
-    "Steps to theaters, dining, and entertainment venues",
-    "Direct access to PATH underground walkway", 
-    "TTC subway and streetcar connections",
-    "Walk to financial district and shopping",
-    "Vibrant urban lifestyle with excellent walk score"
+    "Tree-lined streets and grand estates perfect for leisurely strolls",
+    "Over 200 specialty shops and restaurants along Germantown Avenue",
+    "Chestnuts Park — outdoor gym, tennis courts, basketball areas and a café",
+    "Access to London's Natural History Museum and Science Museum",
+    "Close to iconic London attractions including Hyde Park, Buckingham Palace and the Royal Albert Hall"
   ]
 };
 
@@ -275,45 +265,59 @@ export const neighborhood = {
 export const neighborhoodAmenities = [
   {
     id: 1,
-    name: "Local Grocery Store",
-    distance: "0.2 miles",
+    name: "Germantown Avenue shopping corridor",
+    distance: "",
     category: "shopping",
     iconName: "ShoppingBag"
   },
   {
     id: 2,
-    name: "Nearby Park",
-    distance: "0.1 miles", 
+    name: "Chestnuts Park (outdoor gym & courts)",
+    distance: "",
     category: "recreation",
     iconName: "Leaf"
   },
   {
     id: 3,
-    name: "Public School",
-    distance: "0.6 miles",
-    category: "education", 
+    name: "Natural History Museum",
+    distance: "",
+    category: "education",
     iconName: "School"
   },
   {
     id: 4,
-    name: "Fine Dining",
-    distance: "0.2 miles",
+    name: "Kashmir Grill",
+    distance: "",
     category: "dining",
-    iconName: "Wine"
+    iconName: "Coffee"
   },
   {
     id: 5,
-    name: "Casual Dining",
-    distance: "0.4 miles",
+    name: "The Green Earth Cafe London",
+    distance: "",
     category: "dining",
     iconName: "Utensils"
   },
   {
     id: 6,
-    name: "Transit Station",
-    distance: "0.4 miles",
+    name: "Commissioners at Chestnut Hill 2 SB - #2534 (bus stop)",
+    distance: "",
     category: "transportation",
-    iconName: "Train"
+    iconName: "Car"
+  },
+  {
+    id: 7,
+    name: "Springbank Park",
+    distance: "",
+    category: "recreation",
+    iconName: "Users"
+  },
+  {
+    id: 8,
+    name: "Germantown Avenue commercial district",
+    distance: "",
+    category: "business",
+    iconName: "Wifi"
   }
 ];
 
@@ -322,75 +326,26 @@ export const neighborhoodStats = [
   {
     id: 1,
     title: "Walk Score",
-    value: "95/100",
-    caption: "Walker's Paradise",
+    value: "35/100",
+    caption: "Car-Dependent",
     iconName: "BadgeCheck",
     color: "bg-green-500"
   },
   {
     id: 2,
-    title: "Transit Score", 
-    value: "94/100",
-    caption: "Excellent Transit",
+    title: "Transit Score",
+    value: "35/100",
+    caption: "Some Transit",
     iconName: "Compass",
     color: "bg-blue-500"
   },
   {
     id: 3,
-    title: "School Rating",
-    value: "8/10", 
-    caption: "Great Schools",
+    title: "Bike Score",
+    value: "44/100",
+    caption: "Somewhat Bikeable",
     iconName: "School",
     color: "bg-indigo-500"
-  },
-  {
-    id: 4,
-    title: "Commute Time",
-    value: "8 min",
-    caption: "To Financial District",
-    iconName: "Clock", 
-    color: "bg-amber-500"
-  }
-];
-
-// openHouseBenefits configuration
-export const openHouseBenefits = [
-  {
-    id: 1,
-    title: "Detailed Floor Plans",
-    description: "Complete architectural layouts showing the 4 bedroom, 4 bathroom configuration with precise measurements.",
-    iconName: "FileText"
-  },
-  {
-    id: 2,
-    title: "Recent Neighborhood Sales",
-    description: "Comparative market analysis of recent Detached sales in London.",
-    iconName: "BarChart2"
-  },
-  {
-    id: 3,
-    title: "School District Information", 
-    description: "Elementary: Northview Public School
-Secondary: St. Nicholas, STA or Oakridge",
-    iconName: "GraduationCap"
-  },
-  {
-    id: 4,
-    title: "Property Inspection Report",
-    description: "Professional assessment highlighting recent upgrades and maintenance history.",
-    iconName: "CheckSquare"
-  },
-  {
-    id: 5,
-    title: "Financing Options Guide",
-    description: "Current mortgage rates and financing programs available for this price range.",
-    iconName: "DollarSign"
-  },
-  {
-    id: 6,
-    title: "Neighborhood Amenities Map",
-    description: "Interactive guide to nearby amenities and transportation options.",
-    iconName: "Map"
   }
 ];
 
@@ -404,49 +359,13 @@ export const openHouseDetails = {
   ctaText: "RSVP for Open House",
   virtualTourAvailable: true,
   virtualTourUrl: "https://youriguide.com/23_chestnut_hill_london_on/",
-  allOpenHouses: [{"date":"Saturday, November 22, 2025","time":"2:00 PM - 4:00 PM"}]
+  allOpenHouses: [
+    {
+      date: "Saturday, November 22, 2025",
+      time: "2:00 PM - 4:00 PM"
+    }
+  ]
 };
-
-// packageItems configuration
-export const packageItems = [
-  {
-    id: 1,
-    title: "Detailed Floor Plans",
-    description: "Complete architectural layouts showing the 4 bedroom, 4 bathroom configuration with precise measurements.",
-    iconName: "FileText"
-  },
-  {
-    id: 2,
-    title: "Recent Neighborhood Sales",
-    description: "Comparative market analysis of recent Detached sales in London.",
-    iconName: "BarChart2"
-  },
-  {
-    id: 3,
-    title: "School District Information", 
-    description: "Elementary: Northview Public School
-Secondary: St. Nicholas, STA or Oakridge",
-    iconName: "GraduationCap"
-  },
-  {
-    id: 4,
-    title: "Property Inspection Report",
-    description: "Professional assessment highlighting recent upgrades and maintenance history.",
-    iconName: "CheckSquare"
-  },
-  {
-    id: 5,
-    title: "Financing Options Guide",
-    description: "Current mortgage rates and financing programs available for this price range.",
-    iconName: "DollarSign"
-  },
-  {
-    id: 6,
-    title: "Neighborhood Amenities Map",
-    description: "Interactive guide to nearby amenities and transportation options.",
-    iconName: "Map"
-  }
-];
 
 // property configuration
 export const property = {
@@ -468,7 +387,7 @@ export const property = {
   status: "For Sale",
   description: "The stunning kitchen & family room looking out over the backyard resort. The height. The beams. The brick fireplace. The light pouring in. And then they see the pool, patios, and gardens… and they’re sold.",
   shortDescription: "4 BEDS + 4 BATHS in London",
-longDescription: "Resort-style backyard, Dream kitchen, Mature Byron location steps from some of London's best trails, Incredible family room with vaulted ceilings and fire place",
+  longDescription: "Resort-style backyard, Dream kitchen, Mature Byron location steps from some of London's best trails, Incredible family room with vaulted ceilings and fire place",
   mainFeatures: [],
   propertyType: "Detached",
   heroImage: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570858181-001-23-Chestnut-Hill-London-ON-01 (1).jpg",
@@ -496,7 +415,7 @@ export const siteBranding = {
   favicon: "/favicon.ico",
   colors: {
     primary: "#D9A566",
-    primaryDark: "#8B6839", 
+    primaryDark: "#8B6839",
     primaryLight: "#E6C38C",
     dark: "#111111",
     light: "#FFFFFF"
@@ -524,7 +443,7 @@ export const testimonials = [
   {
     id: 1,
     name: "David Chen",
-    role: "Recent Homebuyer", 
+    role: "Recent Homebuyer",
     content: "Emma Pace provided exceptional service and found us exactly what we were looking for in London.",
     avatar: "https://randomuser.me/api/portraits/men/22.jpg"
   },
@@ -537,9 +456,10 @@ export const testimonials = [
   },
   {
     id: 3,
-    name: "Mark Williams", 
+    name: "Mark Williams",
     role: "Neighborhood Resident",
     content: "Living in this area, you appreciate the convenience and lifestyle. Emma Pace knows the market incredibly well.",
     avatar: "https://randomuser.me/api/portraits/men/35.jpg"
   }
 ];
+

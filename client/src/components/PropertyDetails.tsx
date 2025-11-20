@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { Link } from 'wouter';
 import { property, openHouseDetails, contactInfo, siteBranding } from '../config/siteConfig';
 import { Building, Home, MapPin, Calendar, User, DollarSign, Bed, Bath, Square, Car, Award, Clock } from 'lucide-react';
 import LazyImage from './LazyImage';

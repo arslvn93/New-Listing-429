@@ -1,7 +1,7 @@
 /**
  * Site Configuration
  * This file contains all configurable content for the website
- * Last updated: 2025-11-20T20:09:08.484Z
+ * Last updated: 2025-11-20T14:46:41.305Z
  */
 
 // contactInfo configuration
@@ -12,15 +12,15 @@ export const contactInfo = {
     phone: "6476437037",
     email: "emma@salesgenius.co",
     company: "Real Broker Ontario Ltd",
-    companyLogo: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763564146094-Outline 1.png",
-    companyAddress: "130 King Street West Suite 1900, Toronto, ON M5X 1E3",
-    license: "REALTOR®",
-    repo: "New-Listing-206"
+    license: "REALTOR",
+    repo: "New-Listing-429",
+    companyAddress: "23 Chestnut Hill",
+    companyLogo: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-mceclip2.png"
   },
   social: {
     instagram: "https://www.instagram.com/northgroup_realestate",
     facebook: "https://www.facebook.com/northgrouprealestate/",
-    linkedin: ""
+    linkedin: "https://linkedin.com/company/executivehomesrealtyinc"
   }
 };
 
@@ -230,7 +230,7 @@ export const galleryImages = [
 //   playsInline: true
 // };
 
-// homeShowcaseSections configuration  
+// homeShowcaseSections configuration
 export const homeShowcaseSections = [
   {
     id: "section1",
@@ -260,15 +260,15 @@ export const homeShowcaseSections = [
 
 // neighborhood configuration
 export const neighborhood = {
-  name: "London",
+  name: "Chestnut Hill",
   city: "London",
-  description: "London's premier destination for culture, dining, and urban living.",
+  description: "Chestnut Hill is a leafy neighbourhood known for tree-lined streets, grand estates and easy access to green spaces. Residents enjoy Chestnuts Park with an outdoor gym, tennis courts, basketball areas and an on-site café, plus a vibrant shopping and dining scene along Germantown Avenue. The area also benefits from proximity to London's world-class museums and several iconic attractions.",
   highlights: [
-    "Steps to theaters, dining, and entertainment venues",
-    "Direct access to PATH underground walkway",
-    "TTC subway and streetcar connections",
-    "Walk to financial district and shopping",
-    "Vibrant urban lifestyle with excellent walk score"
+    "Tree-lined streets and grand estates perfect for leisurely strolls",
+    "Over 200 specialty shops and restaurants along Germantown Avenue",
+    "Chestnuts Park — outdoor gym, tennis courts, basketball areas and a café",
+    "Access to London's Natural History Museum and Science Museum",
+    "Close to iconic London attractions including Hyde Park, Buckingham Palace and the Royal Albert Hall"
   ]
 };
 
@@ -276,45 +276,45 @@ export const neighborhood = {
 export const neighborhoodAmenities = [
   {
     id: 1,
-    name: "Local Grocery Store",
-    distance: "0.2 miles",
+    name: "Warbler Woods Trails",
+    distance: "",
     category: "shopping",
     icon: "ShoppingBag"
   },
   {
     id: 2,
-    name: "Nearby Park",
-    distance: "0.1 miles", 
+    name: "West 5 Community& Farmers Market",
+    distance: "",
     category: "recreation",
     icon: "Leaf"
   },
   {
     id: 3,
-    name: "Public School",
-    distance: "0.6 miles",
-    category: "education", 
+    name: "Byron Village Shopping Centre",
+    distance: "",
+    category: "education",
     icon: "School"
   },
   {
     id: 4,
-    name: "Fine Dining",
-    distance: "0.2 miles",
+    name: "St. Nicholas Catholic Elementary School",
+    distance: "",
     category: "dining",
-    icon: "Wine"
+    icon: "Coffee"
   },
   {
     id: 5,
-    name: "Casual Dining",
-    distance: "0.4 miles",
+    name: "Byron Northview Public School",
+    distance: "",
     category: "dining",
     icon: "Utensils"
   },
   {
-    id: 6,
-    name: "Transit Station",
-    distance: "0.4 miles",
-    category: "transportation",
-    icon: "Train"
+    id: 7,
+    name: "Springbank Park",
+    distance: "",
+    category: "recreation",
+    icon: "Users"
   }
 ];
 
@@ -323,34 +323,26 @@ export const neighborhoodStats = [
   {
     id: 1,
     title: "Walk Score",
-    value: "95/100",
-    caption: "Walker's Paradise",
+    value: "35/100",
+    caption: "Car-Dependent",
     icon: "BadgeCheck",
     color: "bg-green-500"
   },
   {
     id: 2,
-    title: "Transit Score", 
-    value: "94/100",
-    caption: "Excellent Transit",
+    title: "Transit Score",
+    value: "35/100",
+    caption: "Some Transit",
     icon: "Compass",
     color: "bg-blue-500"
   },
   {
     id: 3,
-    title: "School Rating",
-    value: "8/10", 
-    caption: "Great Schools",
+    title: "Bike Score",
+    value: "44/100",
+    caption: "Somewhat Bikeable",
     icon: "School",
     color: "bg-indigo-500"
-  },
-  {
-    id: 4,
-    title: "Commute Time",
-    value: "8 min",
-    caption: "To Financial District",
-    icon: "Clock", 
-    color: "bg-amber-500"
   }
 ];
 
@@ -382,8 +374,8 @@ export const packageItems = [
   },
   {
     id: 3,
-    title: "School District Information", 
-    description: "Elementary: Northview Public School\nSecondary: St. Nicholas, STA or Oakridge",
+    title: "School District Information",
+    description: "Comprehensive overview of local school options and ratings.",
     icon: "GraduationCap"
   },
   {
@@ -424,14 +416,14 @@ export const property = {
   yearBuilt: 2010,
   propertyType: "Detached",
   status: "For Sale",
-  description: "The stunning kitchen & family room looking out over the backyard resort. The height. The beams. The brick fireplace. The light pouring in. And then they see the pool, patios, and gardens… and they’re sold.",
-  shortDescription: "4 BEDS + 4 BATHS",
+  description: "The stunning kitchen & family room looking out over the backyard resort. The height. The beams. The brick fireplace. The light pouring in. And then they see the pool, patios, and gardens… and they're sold.",
+  shortDescription: "4 BEDS + 4 BATHS in London",
   mainFeatures: [],
   heroImage: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570858181-001-23-Chestnut-Hill-London-ON-01 (1).jpg",
   heroCaption: "Resort-Style Backyard + Dream Kitchen + Vaulted Ceilings = Your Perfect Family Home Just Listed!",
   mapLocation: {
-    lat: 43.6532,
-    lng: -79.3832
+    lat: 43.7,
+    lng: -79.4
   },
   virtualTourAvailable: true,
   virtualTourUrl: "https://youriguide.com/23_chestnut_hill_london_on/"
@@ -441,76 +433,52 @@ export const property = {
 export const propertyFeatures = [
   {
     id: 1,
-    title: "1. Heated floors in three bathrooms",
-    description: "1. Heated floors in three bathrooms",
-    icon: "CheckCircle"
-  },
-  {
-    id: 2,
-    title: "Buyers love comfort features. Makes winters feel cozy.",
+    title: "Heated floors in three bathrooms",
     description: "Buyers love comfort features. Makes winters feel cozy.",
     icon: "CheckCircle"
   },
   {
-    id: 3,
-    title: "2. 200-amp panel + updated furnace, AC, pumps, windows, front door",
-    description: "2. 200-amp panel + updated furnace, AC, pumps, windows, front door",
-    icon: "CheckCircle"
-  },
-  {
-    id: 4,
-    title: "Shows the home is well cared for and major systems are already done.",
+    id: 2,
+    title: "200-amp panel + updated furnace, AC, pumps, windows, front door",
     description: "Shows the home is well cared for and major systems are already done.",
     icon: "CheckCircle"
   },
   {
+    id: 3,
+    title: "Resort-style backyard",
+    description: "A backyard this level is rare in Byron - Most homes don't come with a sport pool, putting green, multi-level patios and complete privacy.",
+    icon: "CheckCircle"
+  },
+  {
+    id: 4,
+    title: "Entertainer's kitchen",
+    description: "A true entertainer's kitchen with one of the biggest islands you'll ever see and top-tier Thermador appliances. Perfect flow into the family room so everyone can cook, talk, and gather in one space.",
+    icon: "CheckCircle"
+  },
+  {
     id: 5,
-    title: "A backyard this level is rare in Byron - Most homes don’t come with a sport pool, putting green, multi-level patios and complete privacy.",
-    description: "A backyard this level is rare in Byron - Most homes don’t come with a sport pool, putting green, multi-level patios and complete privacy.",
-    icon: "CheckCircle"
-  },
-  {
-    id: 6,
-    title: "A true entertainer’s kitchen with one of the biggest islands you’ll ever see and top-tier Thermador appliances. Perfect flow into the family room so everyone can cook, talk, and gather in one space.",
-    description: "A true entertainer’s kitchen with one of the biggest islands you’ll ever see and top-tier Thermador appliances. Perfect flow into the family room so everyone can cook, talk, and gather in one space.",
-    icon: "CheckCircle"
-  },
-  {
-    id: 7,
-    title: "3. A main-floor office beside a full bath",
-    description: "3. A main-floor office beside a full bath",
-    icon: "CheckCircle"
-  },
-  {
-    id: 8,
-    title: "Creates a perfect main-floor guest suite for aging parents or visitors.",
+    title: "Main-floor office beside a full bath",
     description: "Creates a perfect main-floor guest suite for aging parents or visitors.",
     icon: "CheckCircle"
   },
   {
-    id: 9,
-    title: "4. A completely finished basement with purpose-built rooms",
-    description: "4. A completely finished basement with purpose-built rooms",
-    icon: "CheckCircle"
-  },
-  {
-    id: 10,
-    title: "Not just “finished”… fully designed for real life. Storage, hobbies, extra bedrooms, and more.",
-    description: "Not just “finished”… fully designed for real life. Storage, hobbies, extra bedrooms, and more.",
+    id: 6,
+    title: "Completely finished basement",
+    description: "Not just \"finished\"… fully designed for real life. Storage, hobbies, extra bedrooms, and more.",
     icon: "CheckCircle"
   }
 ];
 
 // siteBranding configuration
 export const siteBranding = {
-  logoUrl: "/logo.svg",
+  logoUrl: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-mceclip2.png",
   colors: {
-    primary: "#FFCAE9"
+    primary: "#D9A566"
   },
   footer: {
-    copyrightText: "© 2025 23 Chestnut Hill. All rights reserved.",
+    copyrightText: "© 2024 23 Chestnut Hill. All rights reserved.",
     disclaimer: "This website is for informational purposes only. Details are subject to change.",
-    privacyPolicyUrl: "https://www.northgroup.com/privacy-policy"
+    privacyPolicyUrl: ""
   }
 };
 
@@ -527,8 +495,8 @@ export const siteMetadata = {
 
 // formAutomations configuration
 export const formAutomations = {
-  crmLeadParsingEmail: "emma.pace2@followupboss.me",
-  sgApiKey: "api_cfdd629411f29f13202b12aa9489f337"
+  crmLeadParsingEmail: "",
+  sgApiKey: ""
 };
 
 // formQuestions configuration
@@ -566,7 +534,7 @@ export const testimonials = [
   {
     id: 1,
     name: "David Chen",
-    role: "Recent Homebuyer", 
+    role: "Recent Homebuyer",
     content: "Emma Pace provided exceptional service and found us exactly what we were looking for in London.",
     avatar: "https://randomuser.me/api/portraits/men/22.jpg",
     rating: 5
@@ -581,10 +549,11 @@ export const testimonials = [
   },
   {
     id: 3,
-    name: "Mark Williams", 
+    name: "Mark Williams",
     role: "Neighborhood Resident",
     content: "Living in this area, you appreciate the convenience and lifestyle. Emma Pace knows the market incredibly well.",
     avatar: "https://randomuser.me/api/portraits/men/35.jpg",
     rating: 5
   }
 ];
+

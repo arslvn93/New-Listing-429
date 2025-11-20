@@ -162,7 +162,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const lastName = rawName ? rawName.split(' ').slice(1).join(' ') : (body.lastName || '').toString().trim();
       const email = (body.email || '').toString().trim();
       const phone = (body.phone || '').toString().trim();
-      const moveTimeline = (body.moveTimeline || body.timeframe || '').toString().trim();
       const message = (body.message || '').toString().trim();
       const source = (body.source || '').toString().trim();
 
@@ -185,13 +184,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
         name: rawName || `${firstName} ${lastName}`.trim(),
         email,
         phone,
-        moveTimeline,
         message,
         source,
         repo: body.repo || repoFromConfig,
         agentEmail: body.agentEmail || '',
         propertyAddress: body.propertyAddress || addressFromConfig,
-        questions: body.questions || []
+        questions: body.questions || [],
+        crmLeadParsingEmail: (body.crmLeadParsingEmail || '').toString().trim(),
+        sgApiKey: (body.sgApiKey || '').toString().trim()
       };
 
       const webhookUrl = 'https://n8n.salesgenius.co/webhook/listingleads';

@@ -46,25 +46,25 @@ export const galleryImages = [
       id: 1,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570858181-001-23-Chestnut-Hill-London-ON-01 (1).jpg",
       alt: "Property image 1",
-      category: "interior"
+      category: ""
     },
     {
       id: 2,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570862081-005-23 Chestnut Hill, London, ON 05.jpg",
       alt: "Property image 2",
-      category: "kitchen"
+      category: ""
     },
     {
       id: 3,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570862747-006-23 Chestnut Hill, London, ON 06.jpg",
       alt: "Property image 3",
-      category: "bedroom"
+      category: ""
     },
     {
       id: 4,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570864258-007-23 Chestnut Hill, London, ON 07.jpg",
       alt: "Property image 4",
-      category: "bathroom"
+      category: ""
     },
     {
       id: 5,
@@ -76,25 +76,25 @@ export const galleryImages = [
       id: 6,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570865119-012-23 Chestnut Hill, London, ON 12.jpg",
       alt: "Property image 6",
-      category: "interior"
+      category: ""
     },
     {
       id: 7,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570866607-013-23 Chestnut Hill, London, ON 13.jpg",
       alt: "Property image 7",
-      category: "kitchen"
+      category: ""
     },
     {
       id: 8,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570868255-014-23 Chestnut Hill, London, ON 14.jpg",
       alt: "Property image 8",
-      category: "bedroom"
+      category: ""
     },
     {
       id: 9,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570869559-016-23 Chestnut Hill, London, ON 16.jpg",
       alt: "Property image 9",
-      category: "bathroom"
+      category: ""
     },
     {
       id: 10,
@@ -106,25 +106,25 @@ export const galleryImages = [
       id: 11,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570870431-020-23 Chestnut Hill, London, ON 20.jpg",
       alt: "Property image 11",
-      category: "interior"
+      category: ""
     },
     {
       id: 12,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570870914-022-23 Chestnut Hill, London, ON 22.jpg",
       alt: "Property image 12",
-      category: "kitchen"
+      category: ""
     },
     {
       id: 13,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570872788-024-23 Chestnut Hill, London, ON 24.jpg",
       alt: "Property image 13",
-      category: "bedroom"
+      category: ""
     },
     {
       id: 14,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570873645-026-23 Chestnut Hill, London, ON 26.jpg",
       alt: "Property image 14",
-      category: "bathroom"
+      category: ""
     },
     {
       id: 15,
@@ -136,25 +136,25 @@ export const galleryImages = [
       id: 16,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570874830-034-23 Chestnut Hill, London, ON 34.jpg",
       alt: "Property image 16",
-      category: "interior"
+      category: ""
     },
     {
       id: 17,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570875362-035-23 Chestnut Hill, London, ON 35.jpg",
       alt: "Property image 17",
-      category: "kitchen"
+      category: ""
     },
     {
       id: 18,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570875977-038-23 Chestnut Hill, London, ON 38.jpg",
       alt: "Property image 18",
-      category: "bedroom"
+      category: ""
     },
     {
       id: 19,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570876659-040-23 Chestnut Hill, London, ON 40.jpg",
       alt: "Property image 19",
-      category: "bathroom"
+      category: ""
     },
     {
       id: 20,
@@ -166,25 +166,25 @@ export const galleryImages = [
       id: 21,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570877913-044-23 Chestnut Hill, London, ON 44.jpg",
       alt: "Property image 21",
-      category: "interior"
+      category: ""
     },
     {
       id: 22,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570878382-047-23 Chestnut Hill, London, ON 47.jpg",
       alt: "Property image 22",
-      category: "kitchen"
+      category: ""
     },
     {
       id: 23,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570878873-048-23 Chestnut Hill, London, ON 48.jpg",
       alt: "Property image 23",
-      category: "bedroom"
+      category: ""
     },
     {
       id: 24,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570879414-049-23 Chestnut Hill, London, ON 49.jpg",
       alt: "Property image 24",
-      category: "bathroom"
+      category: ""
     },
     {
       id: 25,
@@ -196,25 +196,25 @@ export const galleryImages = [
       id: 26,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570880490-055-23 Chestnut Hill, London, ON 55.jpg",
       alt: "Property image 26",
-      category: "interior"
+      category: ""
     },
     {
       id: 27,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570880907-059-23 Chestnut Hill, London, ON 59.jpg",
       alt: "Property image 27",
-      category: "kitchen"
+      category: ""
     },
     {
       id: 28,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570881496-061-23 Chestnut Hill, London, ON 61.jpg",
       alt: "Property image 28",
-      category: "bedroom"
+      category: ""
     },
     {
       id: 29,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570882288-063-23 Chestnut Hill, London, ON 63.jpg",
       alt: "Property image 29",
-      category: "bathroom"
+      category: ""
     },
     {
       id: 30,
@@ -226,13 +226,13 @@ export const galleryImages = [
       id: 31,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570884184-Ariel-Shot-Of-Backyard.jpg",
       alt: "Property image 31",
-      category: "interior"
+      category: ""
     },
     {
       id: 32,
       src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570885051-Summer Photo of Backyard.png",
       alt: "Property image 32",
-      category: "kitchen"
+      category: ""
     }
   ];
 
